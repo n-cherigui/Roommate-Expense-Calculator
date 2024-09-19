@@ -1,19 +1,17 @@
 # Roommate-Expense-Calculator
 
 ## Project Overview
-Roommate-Expense-Calculator is a Python project designed to help roommates easily split shared expenses. The code takes user input in the form of a CSV file listing all expenses paid by each roommate, and it calculates the amount each person owes or is owed. The goal is to automate the tedious process of balancing expenses, ensuring fairness and transparency in shared living arrangements.
+Roommate-Expense-Calculator is a Python project designed to help roommates easily split shared expenses. The code takes user input in the form of a CSV file listing all expenses paid by each roommate and calculates the amount each person owes or is owed. This tool aims to automate the tedious process of balancing expenses, ensuring fairness and transparency in shared living arrangements.
 
-## Methodology
-The project uses basic Python programming techniques, including file handling, data parsing, and arithmetic operations. The main algorithm relies on reading expense data from a CSV file, processing the input to determine total expenses, and calculating the fair share of each roommate. 
-
-Key steps:
-1. **Data Parsing:** Reads data from a CSV file containing details about expenses (amount, payer, description).
-2. **Data Processing:** Aggregates the total expenses paid by each roommate.
-3. **Fair Share Calculation:** Computes the average expense per person and determines the balance each roommate owes or is owed.
-4. **Optimization:** Ensures minimal transactions between roommates by netting the amounts.
+## Algorithms, Libraries, and Methods
+The project utilizes basic Python libraries and methods:
+- **Pandas:** For reading, manipulating, and processing CSV data efficiently.
+- **Numpy:** For numerical operations, such as calculating sums and averages.
+- **Collections (Counter):** For tallying expenses and determining net balances.
+- **Algorithm:** The main algorithm involves calculating each roommate's total expenditure, dividing the total evenly among participants, and determining the balance each person owes or is owed to others. It then minimizes the number of transactions required to settle balances between roommates.
 
 ## Data Requirements
-The program requires a CSV file input that includes the following columns:
+The program requires a CSV file input with the following columns:
 - **Name:** The name of the roommate who paid the expense.
 - **Amount:** The amount paid.
 - **Description:** A brief description of the expense (e.g., rent, groceries).
@@ -27,7 +25,7 @@ Charlie,30,Utilities
 ```
 
 ## Expected Outcome
-The project outputs a summary showing the total amount spent by each roommate, the fair share of expenses, and the exact amount each person owes to others. The program minimizes the number of transactions required to balance the expenses, making it easy for roommates to settle up.
+The project outputs a summary showing the total amount spent by each roommate, the fair share of expenses, and the exact amount each person owes to others. The program optimizes the settlement process, reducing the number of transactions required.
 
 Example output:
 ```
