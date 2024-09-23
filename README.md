@@ -1,6 +1,6 @@
 # Roommate-Expense-Calculator
-**Name:** Nabil Cherigui
-**Student Number:** 5682894
+- **Name:** Nabil Cherigui
+- **Student Number:** 5682894
 
 ## Project Overview
 Roommate-Expense-Calculator is a Python project designed to help roommates easily split shared expenses. The code takes user input in the form of a CSV file listing all expenses paid by each roommate and calculates the amount each person owes or is owed. This tool aims to automate the tedious process of balancing expenses, ensuring fairness and transparency in shared living arrangements.
