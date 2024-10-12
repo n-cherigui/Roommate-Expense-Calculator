@@ -11,11 +11,18 @@ def calculate_totals(expenses_df):
     share_per_person = total_expense / num_roommates
     return total_expense, share_per_person
 
+def calculate_balances(expenses_df, share_per_person):
+    """Calculate balances (how much each person owes or is owed)."""
+    expense_totals = expenses_df.groupby('Name')['Amount'].sum()
+    balances = expense_totals - share_per_person
+    return balances
+
 def main():
     expenses = read_expenses('expenses.csv')
     total, share = calculate_totals(expenses)
-    print(f"Total expenses: ${total:.2f}")
-    print(f"Each roommate should pay: ${share:.2f}")
+    balances = calculate_balances(expenses, share)
+    
+    print(f"Balances:\n{balances}")
 
 if __name__ == '__main__':
     main()
