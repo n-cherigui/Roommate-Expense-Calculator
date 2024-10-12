@@ -1,0 +1,36 @@
+Name,Balance
+Alice,50.42
+Bob,0.42
+Charlie,-19.58
+David,-9.58
+Eve,-29.58
+Frank,10.42
+Grace,20.42
+Hank,-39.58
+Ivy,-4.58
+Jack,30.42
+Kate,-14.58
+Liam,5.42
+
+Transactions
+Charlie owes Alice $19.58
+David owes Alice $9.58
+Eve owes Alice $21.25
+Eve owes Bob $0.42
+Eve owes Frank $7.92
+Hank owes Alice $0.00
+Hank owes Bob $0.00
+Hank owes Frank $2.50
+Hank owes Grace $20.42
+Hank owes Jack $16.67
+Ivy owes Alice $0.00
+Ivy owes Bob $0.00
+Ivy owes Frank $0.00
+Ivy owes Grace $0.00
+Ivy owes Jack $4.58
+Kate owes Alice $0.00
+Kate owes Bob $0.00
+Kate owes Frank $0.00
+Kate owes Grace $0.00
+Kate owes Jack $9.17
+Kate owes Liam $5.42
