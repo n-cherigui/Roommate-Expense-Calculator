@@ -2,6 +2,13 @@
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
+[project]
+name = "roommate-expense-calculator"
+version = "0.1.0"
+description = "A Python tool for splitting shared expenses among roommates."
+authors = [{name = "Nabil Cherigui", email = "ncherigui@tudelft.nl"}]
+dependencies = ["pandas"]
+
 [tool.pytest.ini_options]
 minversion = "6.0"
 testpaths = ["tests"]
