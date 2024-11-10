@@ -8,9 +8,7 @@ Roommate-Expense-Calculator is a Python project designed to help roommates easil
 ## Algorithms, Libraries, and Methods
 The project utilizes basic Python libraries and methods:
 - **Pandas:** For reading, manipulating, and processing CSV data efficiently.
-- **Numpy:** For numerical operations, such as calculating sums and averages.
-- **Collections (Counter):** For tallying expenses and determining net balances.
-- **Algorithm:** The main algorithm involves calculating each roommate's total expenditure, dividing the total evenly among participants, and determining the balance each person owes or is owed to others. It then minimizes the number of transactions required to settle balances between roommates.
+- **Algorithm:** Calculates total expenditure per roommate, fair shares, and minimizes settlement transactions.
 
 ## Data Requirements
 The program requires a CSV file input with the following columns:
@@ -43,6 +41,9 @@ Balances:
 - Bob owes $10
 - Charlie owes $30
 ```
+
+## Test Results Screenshot
+![Test Results](test_results.png)
 
 ## Why Use This Project?
 Roommate-Expense-Calculator saves time and reduces misunderstandings by automating the calculation of shared expenses. It’s perfect for households, shared apartments, or any living arrangement where costs need to be fairly split among individuals.
